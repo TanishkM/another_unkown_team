@@ -17,13 +17,6 @@ function App() {
     <React.Fragment key={location.pathname}>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/fields-of-science" element={<ScienceFields />} />
-        <Route path="/gaming-zone" element={<ElementGames />} />
-        <Route path="/space-game" element={<SpaceGame />} />
-        <Route path="/fire-game" element={<FireGame />} />
-        <Route path="/air-game" element={<AirGame />} />
-        <Route path="/water-game" element={<WaterGame />} />
-        <Route path="/earth-game" element={<EarthGame />} /> */}
       </Routes>
     </React.Fragment>
   );

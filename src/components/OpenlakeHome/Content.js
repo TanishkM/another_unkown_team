@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../footer";
+import Community from "../Community";
 
 export default function Content() {
   return (
@@ -91,6 +92,7 @@ With the importance of Open Source made crystal clear.
           </div>
         </div>
       </div>
+        <Community />
     </div>
 
   );
