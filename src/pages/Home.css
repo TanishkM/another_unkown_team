@@ -20,6 +20,10 @@ code {
     monospace;
 }
 
+#root {
+  width: 100vw;
+}
+
 .App {
   text-align: center;
 }
@@ -52,9 +56,13 @@ code {
 
 .superContainer {
   height: 100%;
-  width: 100vw;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  -ms-overflow-style: none;
+  overflow: hidden;
+  scrollbar-width: none;
 }
 
 .superContainer::-webkit-scrollbar {
@@ -63,13 +71,14 @@ code {
 
 .nav {
   display: flex !important;
-  height: 7%;
+  height: 2%;
   position: absolute;
   background: transparent;
   gap: 20px;
   align-items: center;
   /* padding: 2%; */
-  padding-left: 4% !important;
+  padding-right: 4% !important;
+  justify-content: end;
   width: 100%;
   font-family: "DM Sans", Sans-serif;
   font-size: 16px;
@@ -124,6 +133,7 @@ code {
   flex-direction: column;
   display: flex;
   width: 100%;
+  align-items: center;
   gap: 2rem;
   margin-top: 5%;
 }
@@ -166,9 +176,9 @@ code {
 }
 
 .expTag p {
-  width: 410px;
+  width: 60%;
   line-height: 28px;
-  margin-left: 35%;
+  /* margin-left: 35%; */
 }
 
 .cardsContainer {
@@ -353,4 +363,8 @@ code {
   .cardsContainer div div {
     height: 70%;
   }
+}
+.bg{
+  background-color: rgba(0, 0, 0, 0.227) !important;
+  min-height: 400px;
 }
