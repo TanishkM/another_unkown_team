@@ -12,17 +12,17 @@ export default function Home() {
   // console.log(a);
   return (
     <div className="superContainer">
-      <Navbar onExit={setA} />
-      {/* <div className="expContainer">
+      <div className="expContainer">
         <div className="expImg">
-          <div className="expTag"> */}
+          <div className="expTag">
+            <Navbar onExit={setA} />
             {a === "Home" ? <Content /> : null}
             {a === "Resource" ? <Resource /> : null}
             {a === "Blog" ? <Blog /> : null}
-          {/* </div>
+            <Footer />
+          </div>
         </div>
-      </div> */}
-      <Footer />
+      </div>
     </div>
   );
 }

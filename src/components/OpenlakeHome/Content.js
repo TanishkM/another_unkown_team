@@ -6,16 +6,16 @@ import Community from "../Community";
 export default function Content() {
   return (
     <>
-    <div className="expContainer">
+    {/* <div className="expContainer">
       <div className="expImg">
-        <div className="expTag">
+        <div className="expTag"> */}
           <h1>OpenLake</h1>
           <p>
 As the world is moving towards a connected society. The communities driving the development of open source technologies are becoming more prominent. Numerous software giants like Google and Microsoft are embracing the idea of Open Source Software. With Microsoft's Campaign: “ Microsoft ❤️ Open Source ”, the importance of open source is visible to the world. For example, Tensorflow and Pytorch are 2 very important Machine learning libraries that heavily govern the advancements in Artificial Intelligence today, both of these are driven and developed by open source communities in collaboration with corporate firms.
 With the importance of Open Source made crystal clear. 
           </p>
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
       <div className="cardsContainer">
         <div className="cardHolder">
           <div>
@@ -94,7 +94,7 @@ With the importance of Open Source made crystal clear.
         </div>
       </div>
         <Community />
-    </div>
+    {/* </div> */}
     </>
 
   );

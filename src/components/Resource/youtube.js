@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classes from "./Resource.css"
 
 const YoutubeEmbed = ({ embedId }) => (
+  <div style={{position: 'relative',left: '22.75rem'}}>
   <div className={ classes[ "video-responsive" ] }>
     <iframe
       width="853"
@@ -13,6 +14,7 @@ const YoutubeEmbed = ({ embedId }) => (
       allowFullScreen
       title="Embedded youtube"
     />
+  </div>
   </div>
 );
 

@@ -5,12 +5,12 @@ import Community from "../Community";
 
 export default function Content() {
   return (
-    <div className="expContainer">
-      <div className="expImg">
-        <div className="expTag">
+    // <div className="expContainer">
+    //   <div className="expImg">
+    //     <div className="expTag">
           <h1>Blog</h1>
-        </div>
-      </div>
-    </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
