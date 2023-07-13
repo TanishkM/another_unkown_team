@@ -5,7 +5,7 @@ import Community from "../Community";
 import Events from "../Events/Events.js";
 export default function Content() {
   return (
-    <div>
+    <>
       <div className="expContainer">
         <div className="expImg">
           <div className="expTag">
@@ -104,6 +104,6 @@ export default function Content() {
         <Community />
         <Events />
       </div>
-    </div>
+    </>
   );
 }

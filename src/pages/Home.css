@@ -71,12 +71,12 @@ code {
 
 .nav {
   display: flex !important;
-  height: 2%;
+  /* height: 2%; */
   position: absolute;
   background: transparent;
   gap: 20px;
   align-items: center;
-  /* padding: 2%; */
+  padding: 2%;
   padding-right: 4% !important;
   justify-content: end;
   width: 100%;
