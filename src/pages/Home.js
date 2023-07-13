@@ -4,18 +4,24 @@ import Resource from "../components/OpenlakeHome/Resource";
 import Blog from "../components/OpenlakeHome/Blog";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
-import "./Home.css"
+import "./Home.css";
 import { useState } from "react";
 
 export default function Home() {
-  const [a, setA] = useState("Home")
-  console.log(a)
+  const [a, setA] = useState("Home");
+  // console.log(a);
   return (
     <div className="superContainer">
-      <Navbar onExit={setA}/>
-      {a === 'Home' ? <Content />: null}
-      {a === 'Resource' ? <Resource/> : null}
-      {a === 'Blog' ? <Blog/> : null}
+      <Navbar onExit={setA} />
+      {/* <div className="expContainer">
+        <div className="expImg">
+          <div className="expTag"> */}
+            {a === "Home" ? <Content /> : null}
+            {a === "Resource" ? <Resource /> : null}
+            {a === "Blog" ? <Blog /> : null}
+          {/* </div>
+        </div>
+      </div> */}
       <Footer />
     </div>
   );

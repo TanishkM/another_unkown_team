@@ -5,6 +5,7 @@ import Community from "../Community";
 
 export default function Content() {
   return (
+    <>
     <div className="expContainer">
       <div className="expImg">
         <div className="expTag">
@@ -94,6 +95,7 @@ With the importance of Open Source made crystal clear.
       </div>
         <Community />
     </div>
+    </>
 
   );
 }
