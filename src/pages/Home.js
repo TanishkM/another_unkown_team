@@ -9,20 +9,13 @@ import { useState } from "react";
 
 export default function Home() {
   const [a, setA] = useState("Home");
-  // console.log(a);
   return (
     <div className="superContainer">
-      <div className="expContainer">
-        <div className="expImg">
-          <div className="expTag">
-            <Navbar onExit={setA} />
-            {a === "Home" ? <Content /> : null}
-            {a === "Resource" ? <Resource /> : null}
-            {a === "Blog" ? <Blog /> : null}
-            <Footer />
-          </div>
-        </div>
-      </div>
+      <Navbar onExit={setA} />
+      {a === "Home" ? <Content /> : null}
+      {a === "Resource" ? <Resource /> : null}
+      {a === "Blog" ? <Blog /> : null}
+      <Footer />
     </div>
   );
 }
