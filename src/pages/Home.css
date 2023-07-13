@@ -66,9 +66,9 @@ code {
 .nav {
   display: flex !important;
   /* height: 7%; */
+  /* margin-top: 6rem; */
   position: absolute;
   /* background: transparent; */
-  background: red;
   /* gap: 20px; */
   align-items: center;
   /* padding: 2%; */
@@ -187,7 +187,7 @@ code {
   flex-wrap: wrap;
   padding: -1rem;
   --widgets-spacing: 20px;
-  background-color: #111013;
+  /* background-color: #111013; */
 }
 
 .cardHolder {
