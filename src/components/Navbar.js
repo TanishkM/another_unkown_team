@@ -1,42 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  function handleClick(e) {
+    props.onExit(e);
+  }
   return (
     <div className="nav">
-      <div id="logo">
-        <a href="https://openlake.vercel.app/"></a>
+      <div
+        id="Home"
+        style={{ border: "0.025rem solid red", cursor: "pointer" }}
+        onClick={() => handleClick("Home")}
+      >
+        Home
       </div>
-      <div>
-        <p>
-          <Link to="https://openlake.vercel.app/">Home</Link>
-        </p>
+      <div
+        id="Resource"
+        style={{ border: "0.025rem solid red", cursor: "pointer" }}
+        onClick={() => handleClick("Resource")}
+      >
+        Resource
       </div>
-      <div id="Abhay">
-        <a href="https://openlake.vercel.app/"></a>
+      <div
+        id="Blog"
+        style={{ border: "0.025rem solid red", cursor: "pointer" }}
+        onClick={() => handleClick("Blog")}
+      >
+        Blog
       </div>
-      <div>
-        <p>
-          <Link to="https://openlake.vercel.app/">ABhay</Link>
-        </p>
-      </div>
-      <div id="Abhay_1">
-        <a href="https://openlake.vercel.app/"></a>
-      </div>
-      <div>
-        <p>
-          <Link to="https://openlake.vercel.app/">Abhay_1</Link>
-        </p>
-      </div>
-      <div id="Abhay_2">
-        <a href="https://openlake.vercel.app/"></a>
-      </div>
-      <div>
-        <p>
-          <Link to="https://openlake.vercel.app/">Abhay_2</Link>
-        </p>
+      <div
+        id="Abhay_3"
+        style={{ border: "0.025rem solid red", cursor: "pointer" }}
+        onClick={() => handleClick("Abhay_3")}
+      >
+        Abhay_3
       </div>
     </div>
-    
   );
 }
