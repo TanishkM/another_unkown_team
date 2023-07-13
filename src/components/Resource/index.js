@@ -4,30 +4,23 @@ import "./Resource.css";
 export default function Community() {
   return (
     <>
-      {/* <div className="expContainer"> */}
-      {/* <div className="expImg"> */}
       <div className="expTag">
         <h1>Resource</h1>
-        <div
-          className="cardsContainer"
-          style={{
-            position: "relative",
-            bottom: "7rem",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <span>
-            <Frame embedId="mhdBUXzxqHA" name={"Openlake"} />
-            <Frame embedId="rFCxN38MRmQ" name={"Openlake"} />
-            <Frame embedId="Dix6qe61uW4" name={"Ingenuity"} />
-            <Frame embedId="TV2AVqwHafY" name={"Ingenuity"} />
-          </span>
-        </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
+      <div
+        className="cardsContainer"
+        style={{
+          bottom: "7rem",
+          width: "100%",
+        }}
+      >
+        <span>
+          <Frame embedId="mhdBUXzxqHA" name={"Openlake"} dir={"left"} />
+          <Frame embedId="rFCxN38MRmQ" name={"Openlake"} dir={"right"} />
+          <Frame embedId="Dix6qe61uW4" name={"Ingenuity"} dir={"left"} />
+          <Frame embedId="TV2AVqwHafY" name={"Ingenuity"} dir={"right"} />
+        </span>
+      </div>
     </>
   );
 }

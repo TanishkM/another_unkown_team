@@ -181,6 +181,13 @@ code {
   padding-top: 12rem;
 }
 
+.ext{
+  font-family: "DM Sans", Sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  color: #ecf2ff;
+}
+
 .expTag p {
   width: 60%;
   line-height: 28px;
@@ -190,7 +197,7 @@ code {
 .cardsContainer {
   margin-top: 10%;
   margin-bottom: 05%;
-  padding: 0% 4% 0% 4%;
+  /* padding: 0% 4% 0% 4%; */
   display: flex;
   justify-content: center;
   gap: 2rem;
