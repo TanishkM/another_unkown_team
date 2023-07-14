@@ -28,13 +28,6 @@ export default function Navbar(props) {
       >
         Blog
       </div>
-      <div
-        id="Abhay_3"
-        style={{ cursor: "pointer" }}
-        onClick={() => handleClick("Abhay_3")}
-      >
-        Abhay_3
-      </div>
     </div>
   );
 }

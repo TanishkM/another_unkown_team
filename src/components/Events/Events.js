@@ -22,7 +22,7 @@ const Events = () => {
         <h1>Events</h1>
       </div>
       <div class="wrapper">
-        <div class="item-container even" onClick={(e) => expandItem(e.target)}>
+        <div class="item-container even">
           <div class="item-piece">
             <div class="item">
               <div class="heading1">Web Development</div>
@@ -39,7 +39,7 @@ const Events = () => {
             <div class="bullet first "></div>
           </div>
         </div>
-        <div class="item-container even" onClick={(e) => expandItem(e.target)}>
+        <div class="item-container even">
           <div class="item-piece">
             <div class="item">
               <div class="heading1">Coordinators</div>
@@ -56,7 +56,7 @@ const Events = () => {
         </div>
         <div
           class="item-container even down"
-          onClick={(e) => expandItem(e.target)}
+        
         >
           <div class="item-piece">
             <div class="item">
@@ -73,7 +73,7 @@ const Events = () => {
           </div>
           <div class="down-bar"></div>
         </div>
-        <div class="item-container odd" onClick={(e) => expandItem(e.target)}>
+        <div class="item-container odd">
           <div class="item-piece">
             <div class="item">
               <div class="heading1">FossOverFlow</div>
@@ -88,7 +88,7 @@ const Events = () => {
             <div class="bullet first "></div>
           </div>
         </div>
-        <div class="item-container odd" onClick={(e) => expandItem(e.target)}>
+        <div class="item-container odd">
           <div class="item-piece">
             <div class="item">
               <div class="heading1">Coordinator, 2023/24</div>
@@ -105,7 +105,7 @@ const Events = () => {
         </div>
         <div
           class="item-container last odd"
-          onClick={(e) => expandItem(e.target)}
+        
         >
           <div class="item-piece">
             <div class="bullet"></div>
