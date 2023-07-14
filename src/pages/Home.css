@@ -94,6 +94,12 @@ code {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-evenly;
+  cursor: pointer;
+    background: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    /* cursor: pointer; */
+    border-radius: 25px;
 }
 
 .nav div p {
